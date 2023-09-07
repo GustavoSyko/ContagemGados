@@ -37,7 +37,7 @@ var cores
 // loop de perguntas, até o usuario querer sair
 while (programa == true) {
 
-    pergunta = prompt('Vamos contar qual animal?\n-Gado\n-Ovelha')
+    pergunta = prompt('\nVamos contar qual animal?\n\n-Gado\n\n-Ovelha\n')
     pergunta = pergunta.toLowerCase()
 
     switch (pergunta) {
