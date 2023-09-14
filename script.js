@@ -45,6 +45,7 @@ while (programa == true) {
         case 'gado':
 
             cores = prompt('                              QUAL A COR DO GADO ?\n\n-     Branco\n\n-     Malhado\n\n-     Marrom\n')
+            cores = cores.trim()
             cores = cores.toLowerCase()
             if (cores == 'branco') {
                 gaBranco += parseInt(prompt('\n     Quantos Gados Brancos o fazendeiro possue?\n'))
@@ -67,6 +68,7 @@ while (programa == true) {
         case 'ovelha':
 
             cores = prompt('                              QUAL A COR DA OVELHA ?\n\n-     Branca\n\n-     Malhada\n\n-     Preta\n')
+            cores = cores.trim()
             cores = cores.toLowerCase()
             if (cores == 'branca') {
                 ovBranca += parseInt(prompt('\n       Quantas Ovelhas Brancas o fazendeiro possue?\n'))
