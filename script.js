@@ -39,6 +39,7 @@ while (programa == true) {
 
     pergunta = prompt('\nVamos contar qual animal?\n\n-Gado\n\n-Ovelha\n')
     pergunta = pergunta.toLowerCase()
+    pergunta = pergunta.trim()
 
     switch (pergunta) {
         case 'gado':
