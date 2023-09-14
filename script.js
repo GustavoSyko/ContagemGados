@@ -38,8 +38,8 @@ var cores
 while (programa == true) {
 
     pergunta = prompt('\nVamos contar qual animal?\n\n-Gado\n\n-Ovelha\n')
-    pergunta = pergunta.toLowerCase()
     pergunta = pergunta.trim()
+    pergunta = pergunta.toLowerCase()
 
     switch (pergunta) {
         case 'gado':
